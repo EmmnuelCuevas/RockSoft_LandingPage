@@ -1,46 +1,213 @@
-html,body,main,.main-wrapper{height: 100%;}
+html,body{height: 100%;}
+@font-face {
+    font-family:'SourceSansPro' ;
+    src: url(src/fonts/SourceSansPro/SourceSansPro-SemiBold.ttf);
+    font-style:normal;
+}   
+
+@font-face {
+    font-family:'SourceSansProBold';
+    src: url(src/fonts/SourceSansPro/SourceSansPro-Bold.ttf);
+    font-style:normal;
+
+}   
+
 body{
-    background-image: url("../img/fondo_rocksoft.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: white;
     margin: 0;
+   
 }
 
+body p,span,a,li{
+    font-family: SourceSansPro;
+}
 
+body h1,h2,h3,h4,h5
+{font-family: SourceSansProBold;    font-weight: bold; }
+
+.slick-next, .slick-prev {   top: unset;   bottom: 0;   z-index: 1; }  .slick-next {   right: 0; }  .slick-prev {   left: 0; }
+
+/*Nav Bar*/
+/* .nav-item{
+padding : 0 3rem!important;
+} */
+
+
+
+.nav-link a{
+    margin: 0 2rem!important ;
+}
+
+.nav-item{
+
+    margin: 0 1rem!important;
+}
+.lateral{
+    margin-right:2rem!important;
+}
+
+/*Main wrapper*/
 .main-wrapper{
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+/*Main carousel*/
 .content-box{
     min-width: 200px;
-
+}
+.myCarousel{
+    width: 100%;
+}
+.myCarousel img{
+    width: 100%;
 }
 
+/*about us*/
+#aboutUs p{
+    font-size: 1.4rem;
+}
 
-
-.text{
-    border: solid 1px white;
-    text-align: center;
-    border-radius: 2rem;
+/* Title about us section*/
+.about-us-text-box{
+    padding: 0 4rem;
     margin: auto;
-    width: 40%;
-    font-size: 2rem;
-    letter-spacing: 0.2rem;
-    opacity: 0.8;
 }
 
-.text p{
-    color: white;
-    margin: 0.5rem 0.15rem;
-    font-weight: 100;
+.about-us-text{
+    text-align: center;
+    padding: 4rem;
+}
+
+/*about us boxes */
+.values{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 4rem;
 }
 
 .img-box{
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-self: center;
+  /*  max-width: 250px; */
+    text-align: center;
 }
 .img-box img{
-    width: 60%;
+    width: 80%;
+    margin: 2rem auto;
 }
+
+/*Services*/
+
+#services{
+    text-align: center;
+}
+.service-imgs{
+    margin: 0!important;
+}
+.service-imgs img{
+   width: 100%;
+   padding-bottom: 10px;
+}
+.img-container{
+    padding: 5px!important;
+    text-align: center;
+}
+.img-container span{
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+/* Contact us / form-box*/
+.form-contact{
+  margin: 2.5rem auto;
+}
+form ,.form-btn{
+    margin: auto!important;
+}
+input{
+    border-radius: 5px;
+    border-width: 2px;
+}
+.form button{
+    text-align: center;
+}
+.message-input{
+    margin: 1rem 0;
+    height: 115px;
+}
+.top-inputs{
+    height: 40px;
+}
+ 
+/*footer*/
+footer{
+    height: auto;
+    width: 100%;
+    background: linear-gradient(90deg, rgba(51,63,73,1) 0%, rgba(0,149,150,1) 100%, rgba(0,212,255,1) 009596%);
+    margin: 0!important;
+    padding: 2rem!important;
+}
+
+.footer-menu
+{
+    margin: auto;
+}
+
+.footer-menu p,.copy-rights span{color:white}
+
+.footer-menu ul{
+    list-style: none;
+    text-decoration: none;
+    
+}
+.footer-menu ul>li{
+    padding:5px 0!important;
+}
+.footer-menu ul>li>a{
+   color: white;
+}
+
+.copy-rights span{padding-left: 40px;}
+
+/*Social media*/
+
+.social-media-ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: end;
+    align-items: center;
+    list-style: none;
+}
+
+
+
+.social-media-ul img{
+    max-width: 6rem;
+}
+@media only screen and (max-width: 600px) {
+
+   
+    .about-us-text-box{
+        padding: 2rem;
+    }
+    .about-us-text{
+        padding: 2rem 0;
+    }
+
+    .values{
+        padding: 2rem;
+    }
+
+   
+   .form-contact {
+       padding:2rem ;
+   }
+  }
+
