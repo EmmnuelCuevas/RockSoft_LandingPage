@@ -1,13 +1,13 @@
 html,body{height: 100%;}
 @font-face {
     font-family:'SourceSansPro' ;
-    src: url(src/fonts/SourceSansPro/SourceSansPro-SemiBold.ttf);
+    src: url(../fonts/SourceSansPro/SourceSansPro-SemiBold.ttf);
     font-style:normal;
 }   
 
 @font-face {
     font-family:'SourceSansProBold';
-    src: url(src/fonts/SourceSansPro/SourceSansPro-Bold.ttf);
+    src: url(../fonts/SourceSansPro/SourceSansPro-Bold.ttf);
     font-style:normal;
 
 }   
