@@ -2,24 +2,222 @@
 <html>
     <head>
         <title>RockSoft</title>
-        <link rel="apple-touch-icon" sizes="180x180" href="src/img/favicon//apple-touch-icon.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="src/img/favicon/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="src/img/favicon/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="src/img/favicon//favicon-16x16.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="src/img/favicon/favicon-16x16.png">
         <link rel="manifest" href="src/img/favicon//site.webmanifest">
         <link href="src/css/style.css" rel="stylesheet">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet"  href="node_modules/slick-carousel/slick/slick.css" rel="stylesheet" />
+        <link rel="stylesheet" href="node_modules/slick-carousel/slick/slick-theme.css" rel="stylesheet" />
+        <script type="text/javascript" src="src/js/Carousel.js" ></script>
+
     </head>
     <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <div class="">  <img src="src/img/hi, rocksoft-03.png" style="max-width: 10.5rem;"> </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse justify-content-end " id="navbarSupportedContent">
+              <ul class="navbar-nav ">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#aboutUs">SOBRE NOSOTROS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#services">SERVICIOS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">PORTAFOLIO</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#form-contact">CONTACTANOS </a>
+                  </li>
+                <!-- <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Dropdown
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#">Disabled</a>
+                </li>
+              </ul> -->
+            
+            </div>
+          </nav>
         <main>
+
             <div class="main-wrapper">
                 <div class="content-box">
-                    <div class="img-box">
-                        <img src="src/img/rocksoft_fondo_oscuro.png"> 
-                    </div>
-                    <div class="text">
-                        <p>EN CONSTRUCCIÓN</p>
-                    </div>
+           
                 </div>
             </div>
-        </main>
+            <div style="width: 100%;">
+              <div class="myCarousel" >
+                <div>
+                  <img src="src\img\Foto principal-02.png"/>
+                </div>  
+                <div>
+                  <img src="src\img\Foto principal-02.png"/>
+                </div> 
+                <div>
+                  <img src="src\img\Foto principal-02.png"/>
+                </div> 
+                <div>
+                  <img src="src\img\Foto principal-02.png"/>
+                </div> 
+                <div> 
+                  <img src="src\img\Foto principal-02.png"/>
+                </div>
+              </div>
+            </div>
+            <div id="aboutUs">
+
+                <div class="about-us-text-box">
+                  <div class="about-us-text">        
+                    
+                    <h1 class="mb-4">Sobre nosotros</h1>
+                    <p>Rocksoft es una empresa tecnológica dedicada al análisis,
+                      diseño y desarrollo de software en múltiples
+                      industrias con amplia experiencia acumulada desarrollando
+                        sistemas tecnológicos de calidad.</p> 
+                      
+                    </div>
+                </div>
+
+                <div class="values"  >
+                 <div class="img-box col-md-3"><img src="./src/img/Mission icon-01.png">
+                  <p> <strong>Nuestra misión</strong> es ofrecer
+                    soluciones a nuestros clientes
+                    apoyándonos en las nuevas
+                    tecnologías para satisfacer sus
+                    necesidades en términos de
+                    tecnología e innovación.</p></div>
+                    <div class="col-md-1"></div>
+                 <div class="img-box col-md-3"> <img src="./src/img/Vision icon-02.png">
+                  <p><strong>Nuestra visión</strong> es ser una
+                    empresa líder en el mercado
+                    tecnológico y comercial,
+                    centrada en la seguridad,
+                    calidad y excelencia de nuestros
+                    usuarios.</p></div>
+                    <div class="col-md-1"></div>
+                 <div class="img-box col-md-3"><img src="./src/img/Valueicon-03.png">
+                  <p><strong>Nuestros valores</strong> están basados
+                    en el compromiso, la
+                    transparencia,
+                    la confianza, el servicio,
+                    la calidad, la innovación y
+                    responsabilidad social.</p></div>
+                </div>
+            </div>
+
+            <div class="mb-5 text-center" id="services ">
+              <h1>Servicios</h1>
+              <div class="service-imgs row mt-4"> 
+                <div class="img-container col-md-4">
+                  <img src="src/img/App-dev.jpg" alt="">
+                   <span>Desarrollo de <br><strong>Aplicaciones Moviles</strong></span>
+                  </div>
+                <div class=" img-container col-md-4">
+                  <img src="src/img/Web-dev.jpg" alt="">
+                  <span><strong>Desarrollo Web</strong></span>  
+                </div>
+                <div class=" img-container col-md-4">
+                  <img src="src/img/System.jpg" alt="">
+                  <span>Desarrollo de <br><strong>Sistemas</strong></span>
+                </div>
+              </div>
+            </div>
+
+            <div class="Portafolio"></div>
+            <div class="mt-4 mb-4 " style="height:200px; background:linear-gradient(90deg, rgba(51,63,73,1) 0%, rgba(0,149,150,1) 100%, rgba(0,212,255,1) 009596%);"></div>
+            <h1 style="text-align: center;" class="pb-4">Contáctanos</h1>
+            <div class="form-contact " id="form-contact">
+              <form class="container row">
+                
+                  <input class="col-md-3 top-inputs" type="text" placeholder="NOMBRE" required>
+                  <div class="col-md-1"></div>
+                  <input class="col-md-3 top-inputs" type="email" placeholder="CORREO" required>
+                  <div class="col-md-1"></div>
+                  <input class="col-md-3 top-inputs" type="tel" placeholder="TEL." required>
+                  <input type="text " class=" col-md-11 message-input" placeholder="MENSAJE" required>
+                
+                  <button type="submit" class="form-btn btn btn-info col-md-2" style="border-radius: 20px; background:linear-gradient(90deg, rgba(51,63,73,1) 0%, rgba(0,149,150,1) 100%, rgba(0,212,255,1) 009596%);">Enviar</button>
+                </form>
+            </div>
+
+          </main>
+
+          <di>
+            <div class=" col-12 ">
+              <ul class="social-media-ul">
+                <li><a href="https://www.facebook.com/Rocksoft.do/"target="_blank"><img src="src/img/facebook-07.png" alt=""></a></li>
+                <li><a href="https://www.instagram.com/rocksoft.do/"target="_blank"><img src="src/img/instagram-08.png" alt=""></a></li>
+                <li><a href="https://wa.me/18294479200" target="_blank"><img src="src/img/whatsapp-09.png" alt=""></a></li>
+              </ul>
+            </div>
+          </di>
+          <footer class="row" >
+           
+            <div class="footer-menu- col-md-3"> <span class="text-white"><strong>Copyright &copy; 2022 <a href="#aboutUs" style="text-decoration: none; color: white;">Rocksoft </a>.</strong>
+                  All Rights Reserved.</span>
+              </div>
+              <div class="footer-menu col-md-4 text-center">
+                <ul>
+                <li><a href="#aboutUs">Sobre Nosotros</a></li>
+                <li><a href="#services">Servicios</a></li>
+                <li><a href="#portafolio">Portafolio</a></li>
+                <li><a href="#form-contact">Contacto</a></li>
+                <li><a href="#politics">Politica y Privacidad</a></li>
+              </ul>
+            </div>
+            
+            <div class="footer-menu col-md-4 text-right lateral ">
+              <p style="color: white;">info@rocksoft.do<br>
+              829-569-4523/829-447-9200<br>
+              Federico Read # 42,San Cristobal,Rep Dom.</p>
+            </div>
+
+           
+               
+          </footer>
+
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.3/jquery.min.js"></script>
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="node_modules/slick-carousel/slick/slick.min.js"></script>
+        <script type="text/javascript" src="node_modules/slick-carousel/slick/slick.js"></script>
     </body>
+
+    <script>
+        
+      $(document).on('ready',function(){
+
+          $(".myCarousel").slick({
+
+                dots: true,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                speed: 300,
+          });
+
+      });
+    </script>
 </html>
