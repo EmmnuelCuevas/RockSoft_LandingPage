@@ -1,5 +1,5 @@
 html,body{height: 100%;}
-@font-face {
+/* @font-face {
     font-family:'SourceSansPro' ;
     src: url(../fonts/SourceSansPro/SourceSansPro-SemiBold.ttf);
     font-style:normal;
@@ -10,7 +10,7 @@ html,body{height: 100%;}
     src: url(../fonts/SourceSansPro/SourceSansPro-Bold.ttf);
     font-style:normal;
 
-}   
+}    */
 
 body{
     background-color: white;
@@ -19,7 +19,7 @@ body{
 }
 
 body p,span,a,li{
-    font-family: SourceSansPro;
+     font-family: SourceSansPro; 
 }
 
 body h1,h2,h3,h4,h5
